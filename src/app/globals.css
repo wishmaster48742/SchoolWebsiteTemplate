@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-navy: #0A192F;
+  --brand-platinum: #E5E4E2;
+  --brand-teal: #0D9488;
+  --brand-white: #FFFFFF;
+  --brand-offwhite: #F8FAFC;
+  --brand-steel: #475569;
+}
+
+@layer base {
+  body {
+    @apply font-inter bg-brand-white text-brand-navy selection:bg-brand-teal selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit tracking-tight font-bold;
+  }
+  img {
+    @apply select-none;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 py-20 md:py-28;
+  }
+  
+  .card-standard {
+    @apply bg-white border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-500;
+  }
+
+  .btn-primary {
+    @apply bg-brand-navy text-white px-8 py-3 rounded-xl font-bold hover:bg-brand-teal transition-all duration-300 inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-brand-navy text-brand-navy px-8 py-3 rounded-xl font-bold hover:bg-brand-navy hover:text-white transition-all duration-300 inline-flex items-center gap-2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar - Premium */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-brand-teal transition-colors;
+}
+
+/* Focus Ring */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-brand-teal;
+}

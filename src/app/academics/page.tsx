@@ -99,7 +99,7 @@ export default function Academics() {
                 <p className="text-brand-teal font-bold text-sm uppercase tracking-[0.2em]">Tuition & Scholarships</p>
                 <h2 className="text-3xl font-bold text-brand-navy">Investment in Potential</h2>
                 <p className="text-slate-600 font-medium leading-relaxed italic text-lg">
-                  "Education is the most powerful weapon which you can use to change the world."
+                  &ldquo;Education is the most powerful weapon which you can use to change the world.&rdquo;
                 </p>
                 <p className="text-slate-600 leading-relaxed font-medium">
                   We maintain a transparent fee structure that covers tuition, development, and standard extracurricular activities. For a detailed breakdown, please refer to our official fee schedule.

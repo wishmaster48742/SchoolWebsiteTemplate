@@ -14,7 +14,7 @@ export default function Contact() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white text-center w-full">
           <ScrollReveal>
-            <p className="text-brand-teal font-bold text-sm uppercase tracking-[0.3em] mb-4">We're Here to Help</p>
+            <p className="text-brand-teal font-bold text-sm uppercase tracking-[0.3em] mb-4">We&#39;re Here to Help</p>
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-6">Contact Us</h1>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto font-medium leading-relaxed">
               Inquiries about admissions, campus visits, or general information — our team is ready to assist.

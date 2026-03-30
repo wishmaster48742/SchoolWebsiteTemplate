@@ -1,0 +1,19 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.1
+2 info using node@v25.8.2
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\Lenovo\Downloads\school\mentriq-school\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view lucide-react description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "lucide-react" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:c:\Users\Lenovo\Downloads\school\mentriq-school\.npm-cache\_logs\2026-03-30T17_54_36_730Z-
+10 verbose logfile c:\Users\Lenovo\Downloads\school\mentriq-school\.npm-cache\_logs\2026-03-30T17_54_36_730Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/lucide-react 1188ms (cache miss)
+13 verbose cwd c:\Users\Lenovo\Downloads\school\mentriq-school
+14 verbose os Windows_NT 10.0.26100
+15 verbose node v25.8.2
+16 verbose npm  v11.11.1
+17 verbose exit 0
+18 info ok

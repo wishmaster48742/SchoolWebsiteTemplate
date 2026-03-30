@@ -38,7 +38,7 @@ export default function Staff() {
             <p className="text-brand-teal font-bold text-xs sm:text-sm uppercase tracking-[0.3em] mb-4">Our Educators</p>
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-6">Faculty & Staff</h1>
             <p className="text-sm sm:text-lg text-slate-300 max-w-3xl mx-auto font-medium">
-              Meet the passionate professionals dedicated to your child's academic and personal growth.
+              Meet the passionate professionals dedicated to your child&#39;s academic and personal growth.
             </p>
           </ScrollReveal>
         </div>

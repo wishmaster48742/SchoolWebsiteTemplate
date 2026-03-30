@@ -24,7 +24,7 @@ const resultsData = [
       { subject: "Chemistry", score: "98/100", student: "Rohan Gupta" },
       { subject: "Computer Sci.", score: "100/100", student: "Karan Mehta" },
       { subject: "Accountancy", score: "99/100", student: "Sneha Iyer" },
-    ]
+    ],
   },
   {
     year: "2025",
@@ -45,7 +45,7 @@ const resultsData = [
       { subject: "Biology", score: "99/100", student: "Arjun Kapoor" },
       { subject: "English", score: "97/100", student: "Zara Khan" },
       { subject: "Economics", score: "98/100", student: "Ravi Patel" },
-    ]
+    ],
   },
   {
     year: "2024",
@@ -66,8 +66,8 @@ const resultsData = [
       { subject: "Mathematics", score: "99/100", student: "Ananya Singh" },
       { subject: "English", score: "96/100", student: "Omar Siddiqui" },
       { subject: "Chemistry", score: "97/100", student: "Riya Desai" },
-    ]
-  }
+    ],
+  },
 ];
 
 export default function Results() {
@@ -83,13 +83,12 @@ export default function Results() {
             <p className="text-brand-teal font-bold text-xs sm:text-sm uppercase tracking-[0.3em] mb-4">Academic Performance</p>
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-6">Board Results</h1>
             <p className="text-sm sm:text-lg text-slate-300 max-w-3xl mx-auto font-medium">
-              Consistent excellence — our students' board results over the last three years.
+              Consistent excellence - our students&#39; board results over the last three years.
             </p>
           </ScrollReveal>
         </div>
       </section>
 
-      {/* Year-over-Year Performance Bar */}
       <section className="bg-brand-navy text-white py-10 sm:py-16">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
@@ -117,7 +116,6 @@ export default function Results() {
         </div>
       </section>
 
-      {/* Detailed Results */}
       <section className="section-container px-6 py-12 sm:py-24 space-y-12 sm:space-y-20">
         {resultsData.map((r, ri) => (
           <div key={ri}>
@@ -131,7 +129,6 @@ export default function Results() {
               </div>
             </ScrollReveal>
 
-            {/* Stats Cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-12">
               {[
                 { label: "Pass Percentage", val: r.stats.passPercent, icon: TrendingUp },
@@ -149,7 +146,6 @@ export default function Results() {
               ))}
             </div>
 
-            {/* Toppers */}
             <ScrollReveal>
               <h3 className="text-lg font-bold text-brand-navy mb-4">School Toppers</h3>
             </ScrollReveal>
@@ -161,7 +157,7 @@ export default function Results() {
                       <img src={t.img} alt={t.name} className="w-full h-full object-cover" />
                     </div>
                     <span className={`text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full mb-2 inline-block ${ti === 0 ? "bg-amber-100 text-amber-700" : ti === 1 ? "bg-slate-100 text-slate-600" : "bg-orange-50 text-orange-600"}`}>
-                      {ti === 0 ? "🥇 1st" : ti === 1 ? "🥈 2nd" : "🥉 3rd"}
+                      {ti === 0 ? "1st" : ti === 1 ? "2nd" : "3rd"}
                     </span>
                     <h4 className="text-base font-bold text-brand-navy mt-2">{t.name}</h4>
                     <p className="text-brand-teal text-sm font-bold">{t.score}</p>
@@ -171,11 +167,10 @@ export default function Results() {
               ))}
             </div>
 
-            {/* Subject Toppers Table */}
             <ScrollReveal>
               <div className="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200">
                 <div className="px-6 py-4 bg-slate-100 border-b border-slate-200">
-                  <h4 className="text-sm font-bold text-brand-navy">Subject Toppers — {r.year}</h4>
+                  <h4 className="text-sm font-bold text-brand-navy">Subject Toppers - {r.year}</h4>
                 </div>
                 <div className="divide-y divide-slate-100">
                   {r.subjectToppers.map((st, sti) => (
@@ -195,7 +190,9 @@ export default function Results() {
 
         <ScrollReveal>
           <div className="text-center pt-8">
-            <button className="btn-primary justify-center"><Download size={18} /> Download Full Results PDF</button>
+            <button className="btn-primary justify-center">
+              <Download size={18} /> Download Full Results PDF
+            </button>
           </div>
         </ScrollReveal>
       </section>

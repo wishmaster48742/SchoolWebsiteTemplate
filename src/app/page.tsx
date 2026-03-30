@@ -146,7 +146,7 @@ export default function Home() {
               <p className="text-brand-teal font-bold text-sm uppercase tracking-[0.2em]">Now Accepting Applications</p>
               <h2 className="text-2xl sm:text-4xl font-bold text-brand-navy leading-tight">Admissions Open for 2026-27 Session</h2>
               <p className="text-lg text-slate-600 leading-relaxed font-medium">
-                We invite parents to visit our campus and meet our team. Our admissions process is designed to find the best fit for your child's educational journey.
+                We invite parents to visit our campus and meet our team. Our admissions process is designed to find the best fit for your child&#39;s educational journey.
               </p>
               <ul className="space-y-3 pb-4">
                 {['World-class campus facilities', 'Personalized learning paths', 'Strong community involvement'].map((point, i) => (

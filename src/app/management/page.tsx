@@ -27,7 +27,7 @@ export default function Management() {
             <p className="text-brand-teal font-bold text-xs sm:text-sm uppercase tracking-[0.3em] mb-4">Governance</p>
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-6">Management Committee</h1>
             <p className="text-sm sm:text-lg text-slate-300 max-w-3xl mx-auto font-medium leading-relaxed">
-              The dedicated individuals who guide our institution's vision, policy, and growth.
+              The dedicated individuals who guide our institution&#39;s vision, policy, and growth.
             </p>
           </ScrollReveal>
         </div>

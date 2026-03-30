@@ -38,7 +38,7 @@ export default function Events() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white text-center w-full">
           <ScrollReveal>
-            <p className="text-brand-teal font-bold text-xs sm:text-sm uppercase tracking-[0.3em] mb-4">What's Happening</p>
+            <p className="text-brand-teal font-bold text-xs sm:text-sm uppercase tracking-[0.3em] mb-4">What&#39;s Happening</p>
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-6">Events</h1>
             <p className="text-sm sm:text-lg text-slate-300 max-w-3xl mx-auto font-medium">
               Stay updated with upcoming activities, competitions, and celebrations at Mentriq.

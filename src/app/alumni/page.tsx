@@ -80,7 +80,7 @@ export default function Alumni() {
                 </div>
                 <div className="mt-auto pt-5 border-t border-slate-100">
                   <Quote size={16} className="text-brand-teal/30 mb-2" />
-                  <p className="text-sm text-slate-600 italic leading-relaxed">"{a.quote}"</p>
+                  <p className="text-sm text-slate-600 italic leading-relaxed">&ldquo;{a.quote}&rdquo;</p>
                 </div>
               </div>
             </ScrollReveal>

@@ -122,7 +122,7 @@ export default function Community() {
             <ScrollReveal key={i} delay={i * 0.2}>
               <div className="p-10 bg-slate-50 rounded-3xl border border-slate-200 relative text-left hover:shadow-lg transition-all duration-500 group">
                 <Quote size={32} className="text-brand-teal/20 mb-4" />
-                <p className="italic text-slate-600 text-lg leading-relaxed mb-8">"{t.text}"</p>
+                <p className="italic text-slate-600 text-lg leading-relaxed mb-8">&ldquo;{t.text}&rdquo;</p>
                 <div className="flex items-center gap-4 border-t border-slate-200 pt-6">
                   <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full object-cover" />
                   <div>

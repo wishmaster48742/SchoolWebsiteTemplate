@@ -77,7 +77,7 @@ export default function Campus() {
             <p className="text-brand-teal font-bold text-sm uppercase tracking-[0.3em] mb-4">360° Experience</p>
             <h2 className="text-4xl md:text-5xl font-bold">Experience Our Atmosphere</h2>
             <p className="text-slate-300 max-w-2xl mx-auto font-medium leading-relaxed text-lg">
-              Can't visit in person? Take a virtual walkthrough of our campus from the comfort of your home.
+              Can&#39;t visit in person? Take a virtual walkthrough of our campus from the comfort of your home.
             </p>
             <div className="flex justify-center gap-6 pt-4">
               <button className="bg-brand-teal text-brand-navy px-10 py-4 rounded-xl font-bold hover:bg-white transition-all text-lg inline-flex items-center gap-2">
